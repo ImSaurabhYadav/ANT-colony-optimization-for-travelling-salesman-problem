@@ -1,4 +1,4 @@
-function [new_places]=ant_tour(start_places,m,n,h,t,alpha,beta);
+function [new_places]=ant_root(start_places,m,n,h,t,alpha,beta);
 for i=1:m
     mh=h;
     for j=1:n-1
